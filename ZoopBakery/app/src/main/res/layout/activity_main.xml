@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.zoopbakery.MainActivity">
+
+    <ImageView
+        android:id="@+id/bakery_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bakery" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:text="ZOOP BAKERY"
+        android:gravity="center"/>
+
+    <TextView
+        android:text = "Excellent quality and bakery paradise for vegetarians"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding = "5dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/add2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B-6 , Main Block Market , Sector-16 , Rohini , Delhi - 110096 "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding = "5dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/open2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n9:30AM - 9:30PM"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding = "5dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/phone2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n011-67924567"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding = "5dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/order2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPlace an order : kartik_chandna.com"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
